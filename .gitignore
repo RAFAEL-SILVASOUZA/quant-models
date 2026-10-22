@@ -1,2 +1,5 @@
 models/
 gguf/
+.agent-platform/
+__pycache__/
+calib/
