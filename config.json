@@ -1,0 +1,13 @@
+{
+  "llama_dir": "C:/Projetos/llama-cpp",
+  "bin": "build/bin/Release",
+  "convert_script": "convert_hf_to_gguf.py",
+  "vram_mib_per_gpu": [24576, 24576],
+  "single_gpu_mib": 24576,
+  "ram_gb": 64,
+  "kv_reserve_mib": 3072,
+  "imatrix_chunks": 100,
+  "imatrix_ngl": 999,
+  "quant_threads": null,
+  "_comentario": "kv_reserve_mib e a folga para KV/mmproj ao julgar 'cabe'; imatrix_chunks limita a calibracao; quant_threads null = todas"
+}
